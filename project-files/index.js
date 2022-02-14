@@ -36,7 +36,6 @@ button.addEventListener('click', () => {
     generator();
 });
 
-
 // Audio
 function playSound() {
     let song = document.querySelector('.sound');
@@ -47,10 +46,3 @@ function playSound() {
         song.pause();
     }
 }
-
-
-
-
-// button.addEventListener('click', function () {
-    
-// });
