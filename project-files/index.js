@@ -1,5 +1,5 @@
 const button = document.querySelector('.wrapper__btn');
-
+let imeg = document.querySelector('.block-iodine__imeg');
 api = [
     "The future of this boy is cloudy.",
     "Fear will lead to the dark side. Fear breeds anger; anger breeds hatred; hatred is the key to suffering. I feel a strong fear in you.",
@@ -27,10 +27,12 @@ let generator = () => {
     let rand = Math.floor(Math.random() * newJSON.length);
     let testQuote = document.querySelector('.wrapper__paragraf')
     testQuote.textContent = newJSON[rand]
+
     return newJSON[rand]
 }
 
 button.addEventListener('click', () => {
+    imeg.classList.toggle('active');
     generator();
 });
 
@@ -45,3 +47,10 @@ function playSound() {
         song.pause();
     }
 }
+
+
+
+
+// button.addEventListener('click', function () {
+    
+// });
