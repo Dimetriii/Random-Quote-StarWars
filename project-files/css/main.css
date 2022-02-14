@@ -2,20 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    position: relative;
+    z-index: 1;
 }
 
 .back-imeg {
     width: 100%;
     height: 93vh;
-    background-image: url("/project-files/assets/img/zvezdnoe_nebo_nebo_zvezdy_211853_1280x720.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background-image: url("/project-files/assets/img/zvezdnoe_nebo_nebo_zvezdy_211853_1280x720.jpg"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
 }
 
 .wrapper {
