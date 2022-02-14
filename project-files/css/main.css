@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+.back-imeg {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/project-files/assets/img/Z7D2q6.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .wrapper {
@@ -12,17 +22,23 @@
 }
 
 .wrapper > .wrapper__title {
-    margin-top: 20px;
     font-size: 30px;
-    font-family: 'Akaya Telivigala', cursive;
+    text-align: center;
+}
+
+.wrapper__title-SW {
+	font-size: 50px;
+	text-align: center;
+	text-shadow: -2px -2px 0 #ff6, 2px -2px 0 #ff6, 0px 5px 0 #ff6, 2px 2px 0 #ff6;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
 }
 
 .wrapper > .width-imeg {
-    max-width: 650px;
+    max-width: 500px;
     background-color: white;
-    margin: 15px;
+    margin: 30px;
     padding: 15px;
-    box-shadow: 0px 0px 25px grey;
+    box-shadow: 0px 0px 25px red;
     border-radius: 10px;
 }
 
@@ -32,50 +48,23 @@
 }
 
 .wrapper > .wrapper__paragraf {
-    text-shadow: 0px 10px 10px black;
-    color: black;
+    color: #ff6;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
 }
 
 .wrapper > .wrapper__btn {
     margin: 15px;
     width: 250px;
     height: 50px;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
     font-size: 20px;
     outline: none;
-    background-color: silver;
-    border: none;
-    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #ff6;
+    color: #ff6;
 }
 
 .wrapper > .wrapper__btn:hover {
     animation: bounce 0.3s;
 }
 
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-        /* box-shadow: 0px 0px 0px 100px red; */
-	}
-
-	40% {
-		transform: translateY(-3px);
-        box-shadow: 0px -1px 0px grey;
-        opacity: 0.5;
-	}
-
-    50% {
-        transform: translateX(-3px);
-        box-shadow: -1px 0px 0px grey;
-    }
-
-    70% {
-        transform: translateX(-3px);
-        box-shadow: -1px 0px 0px grey;
-    }
-
-	80% {
-		transform: translateY(-3px);
-        box-shadow: 0px -1px 0px grey;
-	}
-}
