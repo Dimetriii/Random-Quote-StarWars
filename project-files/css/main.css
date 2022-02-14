@@ -7,8 +7,8 @@
 
 .back-imeg {
     width: 100%;
-    height: 100vh;
-    background-image: url("/project-files/assets/img/Z7D2q6.webp");
+    height: 93vh;
+    background-image: url("/project-files/assets/img/zvezdnoe_nebo_nebo_zvezdy_211853_1280x720.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -33,6 +33,13 @@
 	font-size: 50px;
 	text-align: center;
 	text-shadow: -2px -2px 0 #ff6, 2px -2px 0 #ff6, 0px 5px 0 #ff6, 2px 2px 0 #ff6;
+    font-family: "Droid Sans", arial, verdana, sans-serif;
+}
+
+.wrapper__title-R {
+    font-size: 20px;
+    /* color: white; */
+    text-shadow: -1px -1px 0 #ff6, 1px -1px 0 #ff6, 0px 3px 0 #ff6, 1px 1px 0 #ff6;
     font-family: "Droid Sans", arial, verdana, sans-serif;
 }
 
@@ -117,3 +124,28 @@
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 7px #3498db;
 }
 
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    background-color: black;
+    box-shadow:  0 0 10px 7px #3498db;
+}
+
+.size-span {
+    color: white;
+    font-size: 16px;
+}
+
+.padding {
+    padding: 0px 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
